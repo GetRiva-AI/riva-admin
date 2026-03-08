@@ -28,6 +28,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const nav = [
     { label: 'Overview', href: '/dashboard' },
     { label: 'Companies', href: '/dashboard/companies' },
+    { label: 'AI Config', href: '/dashboard/ai-config' },
+    { label: 'API Keys', href: '/dashboard/api-keys' },
   ];
 
   if (!ready) return (
